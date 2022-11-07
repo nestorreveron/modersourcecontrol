@@ -1,4 +1,4 @@
-name: az400_prueba_final
+name: az204
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ main ]
 env:
-    AZURE_WEBAPP_NAME: demo-app-sc01
+    AZURE_WEBAPP_NAME: az204ndrv2024
 jobs:
   build:
 
